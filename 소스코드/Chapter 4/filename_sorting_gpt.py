@@ -10,7 +10,7 @@ file_pattern = re.compile(r"^\d{4}-\d{2}\.csv$")
 files = [f for f in os.listdir(input_folder) if os.path.isfile(os.path.join(input_folder, f))]
 
 # 2
-even_year_folder = os.path.join(input_folder, "짝수 년도")
+even_year_folder = os.path.join(input_folder, "짝수 연도")
 odd_year_folder = os.path.join(input_folder, "홀수 년도")
 
 # 3
