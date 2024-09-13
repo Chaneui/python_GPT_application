@@ -11,7 +11,7 @@ files = [f for f in os.listdir(input_folder) if os.path.isfile(os.path.join(inpu
 
 # 2
 even_year_folder = os.path.join(input_folder, "짝수 연도")
-odd_year_folder = os.path.join(input_folder, "홀수 년도")
+odd_year_folder = os.path.join(input_folder, "홀수 연도")
 
 # 3
 if not os.path.exists(even_year_folder):
